@@ -1,0 +1,141 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.icon-buscador {
+    width: 24px;
+    height: 24px;
+}
+
+#lupa {
+    filter: invert(64%) sepia(15%) saturate(99%) hue-rotate(169deg) brightness(97%) contrast(90%);
+}
+
+header {
+    height: 12vh;
+}
+
+
+header div {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+header div a {
+    margin-right: 20px;
+}
+
+.sub {
+    text-decoration: none;
+    color: black;
+}
+
+.sub:hover {
+    text-decoration: underline;
+}
+
+body {
+    height: 100%;
+}
+
+main {
+    height: 70vh;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.conjunto-buscador {
+    padding: 6px;
+    border: gray solid 1px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 40%;
+    margin-bottom: 20px;
+    padding: 0px 14px 0px 14px;
+
+}
+
+.btns-buscador {
+    display: flex;
+    justify-content: center;
+    /* gap:10px; */
+    width: 40vw;
+    height: 70px;
+}
+
+article.btns-buscador button {
+    border: 0;
+    background-color: #f8f9fa;
+    padding: 0px 11px 0px 11px;
+    margin: 11px 8px 11px 4px;
+    border-radius: 4px;
+
+}
+
+#logo {
+    margin-bottom: 20px;
+}
+
+#input-search {
+
+    border: 0;
+    outline: none;
+    width: 34vw;
+
+}
+
+a.icon-header {
+    width: 30px;
+    filter: invert(64%) sepia(15%) saturate(99%) hue-rotate(169deg) brightness(97%) contrast(90%);
+
+}
+
+img.icon-header {
+    width: 30px;
+    border-radius: 50%;
+}
+
+
+footer {
+    background-color: #f2f2f2;
+    color: gray;
+    height: 15vh;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    font-size: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#country {
+    display: flex;
+    align-items: start;
+}
+
+footer ul li {
+    margin: 10px 15px 10px 15px;
+}
+
+footer section.texto_footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #dadce0;
+    
+}
+
